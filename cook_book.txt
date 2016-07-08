@@ -1,0 +1,124 @@
+Cook Book 
+=================
+
+These are the header labels for the data in X_test_train_enriched.txt.
+
+subject              	; A number from 1 to 30 describing the subject number
+activity_label       	; the activities measured 
+tBodyAcc_mean_X     	; time Body Acceleration signal in the X direction mean
+tBodyAcc_mean_Y		; time Body Acceleration signal in the Y direction mean	
+tBodyAcc_mean_Z		; time Body Acceleration signal in the Z direction mean
+tBodyAcc_std_X		; time Body Acceleration signal in the X direction standard deviation
+tBodyAcc_std_Y		; time Body Acceleration signal in the Y direction standard deviation
+tBodyAcc_std_Z		; time Body Acceleration signal in the Z direction standard deviation
+
+tGravityAcc_mean_X	; time Gravity Acceleration signal in the X direction mean
+tGravityAcc_mean_Y	; time Gravity Acceleration signal in the Y direction mean
+tGravityAcc_mean_Z	; time Gravity Acceleration signal in the Z direction mean
+tGravityAcc_std_X	; time Gravity Acceleration signal in the X direction standard deviation
+tGravityAcc_std_Y	; time Gravity Acceleration signal in the Y direction standard deviation
+tGravityAcc_std_Z	; time Gravity Acceleration signal in the Z direction standard deviation
+
+tBodyAccJerk_mean_X	; time Body Acceleration Jerk signal in the X direction mean
+tBodyAccJerk_mean_Y	; time Body Acceleration Jerk signal in the Y direction mean
+tBodyAccJerk_mean_Z	; time Body Acceleration Jerk signal in the Z direction mean
+tBodyAccJerk_std_X	; time Body Acceleration Jerk signal in the X direction standard deviation
+tBodyAccJerk_std_Y	; time Body Acceleration Jerk signal in the Y direction standard deviation
+tBodyAccJerk_std_Z	; time Body Acceleration Jerk signal in the Z direction standard deviation
+
+tBodyGyro_mean_X	; time Body Gyro signal in the X direction mean	
+tBodyGyro_mean_Y	; time Body Gyro signal in the Y direction mean	
+tBodyGyro_mean_Z	; time Body Gyro signal in the Z direction mean	
+tBodyGyro_std_X		; time Body Gyro signal in the X direction standard deviation
+tBodyGyro_std_Y		; time Body Gyro signal in the Y direction standard deviation
+tBodyGyro_std_Z		; time Body Gyro signal in the Z direction standard deviation
+
+tBodyGyroJerk_mean_X	; time Body Gyro Jerk signal in the X direction mean	
+tBodyGyroJerk_mean_Y	; time Body Gyro Jerk signal in the Y direction mean
+tBodyGyroJerk_mean_Z	; time Body Gyro Jerk signal in the Z direction mean
+tBodyGyroJerk_std_X	; time Body Gyro Jerk signal in the X direction standard deviation
+tBodyGyroJerk_std_Y	; time Body Gyro Jerk signal in the Y direction standard deviation
+tBodyGyroJerk_std_Z	; time Body Gyro Jerk signal in the Z direction standard deviation
+
+tBodyAccMag_mean	; time Body Acceleration Magnitude mean
+tBodyAccMag_std		; time Body Acceleration Magnitude standard deviation
+
+tGravityAccMag_mean	; time Gravity Acceleration Magnitude mean
+tGravityAccMag_std	; time Gravity Acceleration Magnitude standard deviation
+
+tBodyAccJerkMag_mean	; time Body Acceleration Jerk Magnitude mean
+tBodyAccJerkMag_std	; time Body Acceleration Jerk Magnitude standard deviation
+
+tBodyGyroMag_mean	; time Body Gyro Magnitude mean
+tBodyGyroMag_std	; time Body Gyro Magnitude standard deviation
+
+tBodyGyroJerkMag_mean	; time Body Gyro Jerk Magnitude mean
+tBodyGyroJerkMag_std	; time Body Gyro Jerk Magnitude standard deviation
+
+fBodyAcc_mean_X		; frequency Body Acceleration in the X direction mean
+fBodyAcc_mean_Y		; frequency Body Acceleration in the Y direction mean
+fBodyAcc_mean_Z		; frequency Body Acceleration in the Z direction mean
+fBodyAcc_std_X		; frequency Body Acceleration in the X standard deviation
+fBodyAcc_std_Y		; frequency Body Acceleration in the Y standard deviation
+fBodyAcc_std_Z		; frequency Body Acceleration in the Z standard deviation
+
+fBodyAccJerk_mean_X	; frequency Body Acceleration Jerk in the X direction mean
+fBodyAccJerk_mean_Y	; frequency Body Acceleration Jerk in the Y direction mean
+fBodyAccJerk_mean_Z	; frequency Body Acceleration Jerk in the Z direction mean
+fBodyAccJerk_std_X	; frequency Body Acceleration Jerk in the X direction standard deviation
+fBodyAccJerk_std_Y	; frequency Body Acceleration Jerk in the Y direction standard deviation
+fBodyAccJerk_std_Z	; frequency Body Acceleration Jerk in the Z direction standard deviation
+
+fBodyGyro_mean_X	; frequency Body Gyro in the X direction mean
+fBodyGyro_mean_Y	; frequency Body Gyro in the Y direction mean
+fBodyGyro_mean_Z	; frequency Body Gyro in the Z direction mean
+fBodyGyro_std_X		; frequency Body Gyro in the X direction standard deviation
+fBodyGyro_std_Y		; frequency Body Gyro in the Y direction standard deviation
+fBodyGyro_std_Z		; frequency Body Gyro in the Z direction standard deviation
+
+fBodyAccMag_mean	; frequency Body Acceleration Magnitude mean
+fBodyAccMag_std		; frequency Body Acceleration Magnitude standard deviation
+
+fBodyBodyAccJerkMag_mean	; frequency Body Acceleration Jerk Magnitude mean
+fBodyBodyAccJerkMag_std		; frequency Body Acceleration Jerk Magnitude standard deviation
+
+fBodyBodyGyroMag_mean	; frequency Body Gyro Magnitude mean
+fBodyBodyGyroMag_std	; frequency Body Gyro Magnitude standard deviation
+
+fBodyBodyGyroJerkMag_mean	; frequency Body Gyro Jerk Magnitude mean
+fBodyBodyGyroJerkMag_std	; frequency Body Gyro Jerk Magnitude standard deviation
+
+
+
+More details on the measurements can be found below, this data si from the features file:
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
